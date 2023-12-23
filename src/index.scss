@@ -1,0 +1,41 @@
+:root {
+  --primary_white: white;
+  --primary_darkblue: #2c2e35;
+  --primary_sepia: rgba(107, 58, 6, 0.5);
+  * {
+    margin: 0;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent; //disable links default hover color background
+
+  font-family: "Bilbo Swash Caps", cursive;
+  font-family: "Kaisei Decol", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+//global classes
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+}
