@@ -20,6 +20,7 @@ body {
   font-family: "Bilbo Swash Caps", cursive;
   font-family: "Kaisei Decol", serif;
   font-family: "Montserrat", sans-serif;
+  color: var(--primary_darkblue);
 }
 
 code {
@@ -39,4 +40,8 @@ code {
   align-items: center;
   justify-content: center;
   max-width: 1280px;
+}
+
+h3 {
+  font-size: 30px;
 }

@@ -1,0 +1,49 @@
+.routemap_wrapper {
+    height: 100vh;
+    max-height: 800px;
+    background: url("../../assets/routemap_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.routemap_container {
+    flex-direction: column;
+    p {
+        width: 40%;
+        text-align: justify;
+    }
+}
+
+.routemap_map_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    background-color: var(--primary_yellow);
+    margin: 30px;
+    border: 2px solid var(--primary_darkblue);
+}
+
+.routemap_text_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 170px;
+    background: url("../../assets/routemap_card_bg.png") center no-repeat;
+    background-size: contain;
+
+    p {
+        width: 400px;
+    }
+}
+
+.searchbar {
+    background-color: var(--primary_yellow);
+    border-radius: 50px;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
