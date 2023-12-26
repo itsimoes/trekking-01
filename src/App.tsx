@@ -5,6 +5,7 @@ import Experience from "./components/Experience/Experience";
 import RouteMap from "./components/Routes/RouteMap";
 import Highlight02 from "./components/Highlights/Highlight02";
 import RouteOptions from "./components/Routes/RouteOptions";
+import Videos from "./components/Videos/Videos";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <RouteMap />
       <Highlight02 />
       <RouteOptions />
+      <Videos />
     </>
   );
 }
