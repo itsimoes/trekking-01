@@ -7,7 +7,7 @@ const Highlight01 = () => {
   return (
     <div className="wrapper highlights_wrapper">
         <img src={Highlight01Detail} alt="" className="highlight01_detail"/>
-      <div className="container highlights_container">
+      <div className="container highlight01_container">
         <h2>1000+ Rotas. 1 milhão de Hikers. Momentos Inesquecíveis.</h2>
         <div className="highlight01_card">
           <p>
