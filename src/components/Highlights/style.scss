@@ -1,0 +1,39 @@
+.highlights_wrapper {    
+    background-color: var(--primary_yellow);
+}
+
+.highlights_container {
+    padding: 100px;
+    padding-top: 200px;
+    flex-direction: column;
+    text-align: center;
+    h2 {
+        width: 75%;
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+.highlight01_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 170px;
+    background: url("../../assets/highlight01_card_bg.png") center no-repeat;
+    background-size: contain;
+    color: var(--primary_white);
+
+    p {
+        width: 400px;
+    }
+}
+
+.highlight01_detail {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    align-self: flex-start;
+    margin-top: -100px;
+}
