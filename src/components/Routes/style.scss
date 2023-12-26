@@ -1,49 +1,124 @@
 .routemap_wrapper {
-    height: 100vh;
-    max-height: 800px;
-    background: url("../../assets/routemap_bg.png") center no-repeat;
-    background-size: cover;
+  height: 100vh;
+  max-height: 800px;
+  background: url("../../assets/routemap_bg.png") center no-repeat;
+  background-size: cover;
 }
 
 .routemap_container {
-    flex-direction: column;
-    p {
-        width: 40%;
-        text-align: justify;
-    }
+  flex-direction: column;
+  p {
+    width: 40%;
+    text-align: justify;
+  }
 }
 
 .routemap_map_card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    height: 300px;
-    background-color: var(--primary_yellow);
-    margin: 30px;
-    border: 2px solid var(--primary_darkblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+  background-color: var(--primary_yellow);
+  margin: 30px;
+  border: 2px solid var(--primary_darkblue);
 }
 
 .routemap_text_card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 170px;
-    background: url("../../assets/routemap_card_bg.png") center no-repeat;
-    background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 170px;
+  background: url("../../assets/routemap_card_bg.png") center no-repeat;
+  background-size: contain;
 
-    p {
-        width: 400px;
-    }
+  p {
+    width: 400px;
+  }
 }
 
 .searchbar {
-    background-color: var(--primary_yellow);
-    border-radius: 50px;
-    width: 400px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+  background-color: var(--primary_yellow);
+  border-radius: 50px;
+  width: 400px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+//RouteOptions
+
+.routeOptions_wrapper {
+  height: 100vh;
+  max-height: 800px;
+  background: url("../../assets/routeoptions_bg.png") center no-repeat;
+  background-size: cover;
+}
+
+.routeOptions_container {
+  width: 100%;
+  padding-top: 100px;
+  flex-direction: column;
+  color: var(--primary_white);
+  h2 {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 50px;
+  }
+  span {
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+
+.routeOptions_cards_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 30px;
+}
+
+.routeOptions_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.route_card_title {
+  margin-bottom: -15px;
+  padding: 5px;
+  width: 100px;
+  background-color: var(--primary_yellow);
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  color: var(--primary_darkblue);
+}
+
+.route_card_img {
+  height: 300px;
+  width: auto;
+  border: 4px solid var(--primary_white);
+  border-radius: 35px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s linear;
+  }
+}
+
+.route_promo {
+  margin-top: -15px;
+  padding: 5px;
+  width: 70px;
+  background-color: var(--primary_red);
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
 }
