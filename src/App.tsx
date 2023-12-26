@@ -6,6 +6,7 @@ import RouteMap from "./components/Routes/RouteMap";
 import Highlight02 from "./components/Highlights/Highlight02";
 import RouteOptions from "./components/Routes/RouteOptions";
 import Videos from "./components/Videos/Videos";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Highlight02 />
       <RouteOptions />
       <Videos />
+      <Gallery />
     </>
   );
 }
