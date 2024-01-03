@@ -46,10 +46,18 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary_darkblue);
+  border: 2px solid var(--primary_darkblue);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  &:focus {
+    outline: none;
+    border: 2px solid var(--primary_white);
+  }
 }
 
 //RouteOptions
-
 .routeOptions_wrapper {
   height: 100vh;
   max-height: 800px;

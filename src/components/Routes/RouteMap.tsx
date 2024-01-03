@@ -7,7 +7,8 @@ const RouteMap = () => {
       <div className="container routemap_container">
         <h3>Rotas de Hiking</h3>
         <div className="routemap_map_card">Mapa aqui...</div>
-        <div className="searchbar">Search</div>
+        <input type="text" className="searchbar" placeholder="Digite sua rota"/>
+        {/* <div className="searchbar">Search</div> */}
         <div className="routemap_text_card">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nihil
