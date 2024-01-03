@@ -8,10 +8,12 @@ import RouteOptions from "./components/Routes/RouteOptions";
 import Videos from "./components/Videos/Videos";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Home />
       <Highlight01 />
       <Experience />
