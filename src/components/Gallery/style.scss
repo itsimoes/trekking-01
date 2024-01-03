@@ -19,13 +19,19 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  img {
-    margin: 30px;
-    transition: all 0.3s linear;
-    cursor: pointer;
+  transition: all 0.3s linear;
+  height: auto;
 
+  img {
+    margin: 10px;
+    cursor: pointer;
+    width: 288px;
+    transition: all 0.3s linear;
+    
     &:hover {
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 320px;
+      margin: -7px;
       transition: all 0.3s linear;
     }
   }
