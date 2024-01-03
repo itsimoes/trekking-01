@@ -7,6 +7,7 @@ import Highlight02 from "./components/Highlights/Highlight02";
 import RouteOptions from "./components/Routes/RouteOptions";
 import Videos from "./components/Videos/Videos";
 import Gallery from "./components/Gallery/Gallery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <RouteOptions />
       <Videos />
       <Gallery />
+      <Footer />
     </>
   );
 }
