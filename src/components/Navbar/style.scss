@@ -1,7 +1,10 @@
 .navbar_wrapper {
   position: fixed;
   width: 100%;
-  z-index: 5;
+  z-index: 5;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
 }
 
 .navbar_container {
@@ -12,7 +15,8 @@
   padding-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
-  //   background-color: white;
+  width: 100%;
+  max-width: 1280px;  
 }
 
 .navbar_logo {
@@ -23,6 +27,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1080px;
   font-size: 14px;
   font-weight: 600;
 }
@@ -31,11 +36,12 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
+  padding-right: 15px;
+  border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s linear;
-
+  margin-left: 5px;
+  margin-right: 5px;
 
   &:hover {
     background-color: var(--primary_darkblue);
