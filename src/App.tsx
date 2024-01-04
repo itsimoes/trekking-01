@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
       <Highlight01 />
       <Experience />
@@ -22,7 +22,7 @@ function App() {
       <RouteOptions />
       <Videos />
       <Gallery />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
