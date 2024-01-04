@@ -7,7 +7,7 @@ import Route3img from "../../assets/routeOptions_route3_img.png"
 
 const RouteOptions = () => {
   return (
-    <div className="wrapper routeOptions_wrapper">
+    <div id="routes" className="wrapper routeOptions_wrapper">
       <div className="container routeOptions_container">
         <h2>É hora de</h2>
         <span>HIkING</span>
