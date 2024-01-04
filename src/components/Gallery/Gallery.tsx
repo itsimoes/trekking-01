@@ -14,7 +14,7 @@ import GalleryPic9 from "../../assets/gallery_pic_9.png"
 
 const Gallery = () => {
   return (
-  <div className="wrapper gallery_wrapper">
+  <div id="gallery" className="wrapper gallery_wrapper">
     <div className="container gallery_container">
         <h3>Galeria</h3>
         <div className="gallery_photos_container">
