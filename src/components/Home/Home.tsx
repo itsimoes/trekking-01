@@ -2,9 +2,9 @@ import React from "react";
 import "./style.scss";
 const Home = () => {
   return (
-    <div className="wrapper home_wrapper">
+    <div id="home" className="wrapper home_wrapper">
       <div className="container home_container">
-        <div className="home_quote">
+        <div className="home_quote slide_in_left">
           <span>* * * * *</span>
           <p>
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
@@ -12,7 +12,7 @@ const Home = () => {
           </p>
           <span>-FERNANDO NASCIMENTO-</span>
         </div>
-        <div className="home_card_wrapper">
+        <div className="home_card_wrapper slide_in_right">
           <div className="home_card">
             <h2>MAIS HIKING</h2>
             <h3>Menos Stress</h3>
