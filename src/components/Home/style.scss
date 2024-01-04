@@ -74,3 +74,41 @@
     transition: all 0.3s linear;
   }
 }
+
+// media query MOBILE
+@media (max-width: 431px) {
+  .home_container {
+    flex-direction: column;
+  }
+
+  .home_card_wrapper {
+    order: 1;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 350px;
+
+    .home_card {
+      h2 {
+        font-size: 50px;
+        margin-top: 130px;
+        line-height: 2;
+      }
+    }
+  }
+  .home_quote {
+    order: 2;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .home_button {
+    color: var(--primary_darkblue);
+    background-color: var(--primary_white);
+
+    &:hover {
+      color: var(--primary_white);
+      background: none;
+    }
+  }
+}
