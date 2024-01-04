@@ -80,3 +80,50 @@
   align-self: flex-end;
   margin-bottom: -100px;
 }
+
+@media (max-width: 431px) {
+  .highlight01_detail {
+    height: 100px;
+    margin-top: -50px;
+  }
+
+  .highlight01_container {
+    padding-top: 150px;
+    h2 {
+      font-size: 25px;
+    }
+  }
+
+  .highlight01_card {
+    width: 100vw;
+    background-size: cover;
+    p {
+      width: 90%;
+      text-align: justify;
+    }
+      
+  }
+
+  //highlight02
+  .highlight02_detail {
+    height: 100px;
+    margin-bottom: -50px;
+  }
+
+  .highlight02_container {
+    padding-bottom: 150px;
+    padding-left: 0;
+    padding-right: 0;
+    h2 {
+      font-size: 25px;
+    }
+
+    .highlight02_text_container {
+      width: 90%;
+      p {
+        width: 100%;
+        text-align: justify;
+      }
+    }
+  }
+}
