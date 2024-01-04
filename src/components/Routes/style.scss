@@ -137,7 +137,7 @@
 //media query MOBILE
 @media (max-width: 431px) {
   .routemap_container {
-    h3 {      
+    h3 {
       margin-bottom: 50px;
     }
   }
@@ -150,12 +150,33 @@
   }
 
   .routemap_text_card {
-    margin-top: 20px;    
+    margin-top: 20px;
     width: 100vw;
     background-size: cover;
     p {
       width: 90%;
       text-align: justify;
+    }
+  }
+
+  //RouteOptions
+  .routeOptions_wrapper {
+    height: auto;
+    max-height: fit-content;
+    background-position: 78%;
+  }
+  .routeOptions_container {
+    padding-bottom: 50px;
+  }
+  .routeOptions_cards_container {
+    height: auto;
+  }
+  .routeOptions_card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .route_card_img {
+      height: 200px;
+      border-radius: 25px;
     }
   }
 }
