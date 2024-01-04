@@ -38,7 +38,7 @@
   }
 }
 
-.searchbar {
+.routemap_searchbar {
   background-color: var(--primary_yellow);
   border-radius: 50px;
   width: 400px;
@@ -132,4 +132,30 @@
   text-align: center;
   font-weight: 700;
   font-size: 14px;
+}
+
+//media query MOBILE
+@media (max-width: 431px) {
+  .routemap_container {
+    h3 {      
+      margin-bottom: 50px;
+    }
+  }
+  .routemap_map_card {
+    width: 350px;
+    height: 200px;
+  }
+  .routemap_searchbar {
+    width: 250px;
+  }
+
+  .routemap_text_card {
+    margin-top: 20px;    
+    width: 100vw;
+    background-size: cover;
+    p {
+      width: 90%;
+      text-align: justify;
+    }
+  }
 }
