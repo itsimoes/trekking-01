@@ -10,7 +10,7 @@ const RouteOptions = () => {
     <div id="routes" className="wrapper routeOptions_wrapper">
       <div className="container routeOptions_container">
         <h2>É hora de</h2>
-        <span>HIkING</span>
+        <span>HIKING</span>
         <div className="routeOptions_cards_container">
           <div className="routeOptions_card">
             <div className="route_card_title">ROTA 1</div>

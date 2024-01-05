@@ -171,7 +171,7 @@
     padding-bottom: 50px;
   }
   .routeOptions_cards_container {
-    height: auto;
+    height: 600px;
   }
   .routeOptions_card {
     padding-top: 20px;
@@ -179,6 +179,11 @@
     .route_card_img {
       height: 200px;
       border-radius: 25px;
+    
+      &:hover {
+        height: 230px;
+      border-radius: 30px;
+      }
     }
   }
 }
