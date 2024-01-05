@@ -55,3 +55,30 @@
       transition: all 0.3s linear;
     }
   }
+
+  @media (max-width: 431px) {
+    .gallery_wrapper {
+      background-size: cover;
+      background-position: right;
+    }
+    .gallery_container {
+      padding: 10px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .gallery_photos_container {
+      height: 507px;
+      img {
+        width: 40%;
+
+        &:hover {
+          width: 50%;
+        }
+      }
+
+      #gallery_img_9 {
+        display: none;
+      }
+    }
+  }

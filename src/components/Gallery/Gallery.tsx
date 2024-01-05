@@ -26,7 +26,7 @@ const Gallery = () => {
             <img src={GalleryPic6} alt="" />
             <img src={GalleryPic7} alt="" />
             <img src={GalleryPic8} alt="" />
-            <img src={GalleryPic9} alt="" />
+            <img id="gallery_img_9" src={GalleryPic9} alt="" />
         </div>
         <a className="gallery_button">MAIS FOTOS</a>
     </div>
