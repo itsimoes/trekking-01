@@ -22,7 +22,7 @@ function App() {
       <RouteOptions />
       <Videos />
       <Gallery />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
