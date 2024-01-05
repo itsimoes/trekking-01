@@ -12,6 +12,7 @@
   text-align: center;
   margin: 50px;
   margin-top: 200px;
+  
   p {
     text-align: left;
     margin-top: 10px;
@@ -76,7 +77,11 @@
 }
 
 // media query MOBILE
-@media (max-width: 431px) {
+@media (max-width: 431px) {  
+  .home_wrapper {
+    overflow-x: hidden;
+    width: 100%;
+  }
   .home_container {
     flex-direction: column;
   }
