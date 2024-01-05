@@ -88,13 +88,16 @@
   }
 
   .highlight01_container {
+    padding: 0;
     padding-top: 150px;
+    padding-bottom: 100px;
     h2 {
       font-size: 25px;
     }
   }
 
   .highlight01_card {
+    margin-top: 50px;
     width: 100vw;
     background-size: cover;
     p {
@@ -121,6 +124,8 @@
     .highlight02_text_container {
       width: 90%;
       p {
+        margin-top: 50px;
+        margin-bottom: 50px;
         width: 100%;
         text-align: justify;
       }
