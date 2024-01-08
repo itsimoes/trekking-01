@@ -1,23 +1,23 @@
 .navbar_wrapper {
   position: fixed;
   width: 100%;
-  z-index: 5;  
+  z-index: 5;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   padding-top: 30px;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
 }
 
 .navbar_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding-left: 100px;
   padding-right: 100px;
   width: 100%;
-  max-width: 1280px;  
+  max-width: 1280px;
 }
 
 #navbar_logo {
@@ -48,7 +48,6 @@
     background-color: var(--primary_darkblue);
     color: var(--primary_white);
     transition: all 0.3s linear;
-
   }
 }
 
@@ -68,7 +67,6 @@
     background-color: var(--primary_white);
     color: var(--primary_darkblue);
     transition: all 0.3s linear;
-
   }
 }
 
@@ -113,7 +111,6 @@
 
 //media query MOBILE
 @media (max-width: 431px) {
-
   .navbar_wrapper {
     width: 100%;
   }
@@ -132,7 +129,6 @@
   #navbar_logo_mobile {
     margin-left: 40px;
     transition: all 0.3s linear;
-    
   }
 
   #menu_icon_mobile {
@@ -143,7 +139,7 @@
     #menu_icon_mobile {
       transition: all 0.3s linear;
     }
-  } 
+  }
 
   .MuiMenu-root {
     display: flex !important;
@@ -152,7 +148,7 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .MuiMenu-paper {    
+  .MuiMenu-paper {
     background-color: rgba(0, 0, 0, 0.7) !important;
 
     color: var(--primary_white) !important;
@@ -170,18 +166,18 @@
 
   .MuiMenu-list {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     width: 100%;
 
     li {
       display: flex;
       justify-content: center;
       height: 60px;
-
-      font-size: 22px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
       font-weight: 500;
       line-height: 20px;
-      letter-spacing: 0.20000000298023224px;    
+      letter-spacing: 0.20000000298023224px;
     }
   }
 
