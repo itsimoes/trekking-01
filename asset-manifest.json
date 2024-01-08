@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/trekking-01/static/css/main.a226a340.css",
+    "main.js": "/trekking-01/static/js/main.c4ccc9ce.js",
+    "static/js/787.55941afe.chunk.js": "/trekking-01/static/js/787.55941afe.chunk.js",
+    "static/media/home_bg.png": "/trekking-01/static/media/home_bg.2542d7d55b2b4c6de191.png",
+    "static/media/routeoptions_bg.png": "/trekking-01/static/media/routeoptions_bg.dbafc531f0a73c474b74.png",
+    "static/media/routemap_bg.png": "/trekking-01/static/media/routemap_bg.f52bb571ff462864bdd6.png",
+    "static/media/experience_bg.png": "/trekking-01/static/media/experience_bg.53f1c43bcaa89f049f7c.png",
+    "static/media/routeOptions_route3_img.png": "/trekking-01/static/media/routeOptions_route3_img.2aa6f4b9fbf84dea34eb.png",
+    "static/media/routeOptions_route1_img.png": "/trekking-01/static/media/routeOptions_route1_img.28528aa33e4665f6d737.png",
+    "static/media/routeOptions_route2_img.png": "/trekking-01/static/media/routeOptions_route2_img.4e4ebfecc33310f6cdb5.png",
+    "static/media/gallery_pic_3.png": "/trekking-01/static/media/gallery_pic_3.48440c27c64326ad1a47.png",
+    "static/media/gallery_pic_4.png": "/trekking-01/static/media/gallery_pic_4.bf49bbec6fe6df471108.png",
+    "static/media/gallery_pic_7.png": "/trekking-01/static/media/gallery_pic_7.b0fc97de34a2788d0c8e.png",
+    "static/media/gallery_pic_9.png": "/trekking-01/static/media/gallery_pic_9.f95ce9f416c21067d197.png",
+    "static/media/gallery_pic_8.png": "/trekking-01/static/media/gallery_pic_8.79c1e8eb75654c61b5af.png",
+    "static/media/gallery_pic_1.png": "/trekking-01/static/media/gallery_pic_1.5e998ae93897da40c44c.png",
+    "static/media/gallery_pic_5.png": "/trekking-01/static/media/gallery_pic_5.5866686cce24f1392343.png",
+    "static/media/gallery_pic_2.png": "/trekking-01/static/media/gallery_pic_2.b889fd94da42c2b247d3.png",
+    "static/media/gallery_pic_6.png": "/trekking-01/static/media/gallery_pic_6.8fe1ac4690cc06bf7fd1.png",
+    "static/media/videos_bg.png": "/trekking-01/static/media/videos_bg.ec00d9ae076adafe5813.png",
+    "static/media/gallery_bg.png": "/trekking-01/static/media/gallery_bg.e0fb827d518848a9207a.png",
+    "static/media/home_card_mountains.png": "/trekking-01/static/media/home_card_mountains.2c7f2d93c2e352db911e.png",
+    "static/media/routemap_card_bg.png": "/trekking-01/static/media/routemap_card_bg.9bfdfca3a91d8905b575.png",
+    "static/media/highlight01_detail.png": "/trekking-01/static/media/highlight01_detail.1b18e39ad69d29f899ed.png",
+    "static/media/highlight01_card_bg.png": "/trekking-01/static/media/highlight01_card_bg.da7c8eb2b4c888ec8169.png",
+    "index.html": "/trekking-01/index.html",
+    "main.a226a340.css.map": "/trekking-01/static/css/main.a226a340.css.map",
+    "main.c4ccc9ce.js.map": "/trekking-01/static/js/main.c4ccc9ce.js.map",
+    "787.55941afe.chunk.js.map": "/trekking-01/static/js/787.55941afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a226a340.css",
+    "static/js/main.c4ccc9ce.js"
+  ]
+}
